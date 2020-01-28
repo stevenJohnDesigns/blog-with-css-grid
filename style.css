@@ -10,43 +10,16 @@ html {
     margin: 0;
   }
   
-  header {
-    margin-top: 0;
+  .head {
+    margin: 0;
     background-color: rgba(4, 15, 22, 1);
     color: rgba(251, 251, 255, 1);
   }
   
-  header a {
-    color: rgba(251, 251, 255, 1);
-  }
-  
-  header nav {
-    border-bottom: 1px solid rgba(251, 251, 255, 0.2);
-  }
-  
-  header ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    display: flex;
-  }
-  
-  header h1 {
+  .head h1 {
     font: 200% Alegreya, serif;
     padding: 0.5rem 1rem;
     margin: 2rem 0 0 0;
-  }
-  
-  nav a {
-    display: block;
-    padding: 0.5rem 1rem;
-    border-right: 1px solid rgba(251, 251, 255, 0.2);
-    text-decoration: none;
-    transition: all 0.8s;
-  }
-  
-  nav a:hover {
-    background-color: rgba(251, 251, 255, 0.2);
   }
   
   .featured {
